@@ -1,0 +1,228 @@
+body {
+margin:0;
+padding:0;
+line-height: 1.5em;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+background: #666666;
+}
+
+#templatemo_container {
+width: 800px;
+height:1000;
+margin: auto;
+background: #587904;
+}
+#templatemo_header {
+	height: 200px;
+	margin-top: 20px;
+	/*background: url(../img/logo.png) no-repeat;*/
+	background-image: url(../img/qq.jpg);
+}
+#templatemo_header img{
+;
+	width: auto;
+	height: 200px;
+}
+.templatemo_content {
+	width: 800px;
+	margin-top:59px;
+}
+
+.templatemo_left_column {
+	margin-top: 10px;
+	float: left;
+	width: 550px;
+	min-height: 400px;
+}
+.templatemo_left_column img{
+	width: 550px;
+}
+#templatemo_right_column {
+background: #587904;
+float: left;
+width: 250px;
+min-height: 400px;
+color: #ffffff;
+}
+#templatemo_footer {
+clear: left;
+background: #015699;
+padding: 5px;
+color: #FFFFFF;
+}
+#templatemo_footer a {
+color: #FFFFFF;
+}
+#templatemo_site_title {
+padding-top: 50px;
+padding-left: 60px;
+font-size: 24px;
+font-weight: bold;
+}
+#templatemo_site_slogan {
+padding-top: 10px;
+padding-left: 60px;
+font-size: 12px;
+font-weight: bold;
+}
+
+.section_box {
+margin: 10px;
+padding: 10px;
+background: #015699;
+color: #FFFFFF;
+}
+.section_box2 {
+
+padding: 10px;
+background: #015699;
+color: #FFFFFF;
+}
+.section_box a, .section_box2 a {
+color: #FFFF99;
+}
+.text_area {
+margin: 10px;
+}
+.title {
+padding-bottom: 10px;
+font-size: 14px;
+font-weight: bold;
+}
+.subtitle {
+padding-bottom: 10px;
+font-size: 12px;
+font-weight: bold;
+}
+.cont {
+padding-bottom: 10px;
+font-size: 12px;
+font-weight: bold;
+background: #ffffff;
+color: #000000;
+}
+#slider{
+	margin-top: 10px;
+}
+
+/* Menu Credits: Dynamic Drive CSS Library */
+/* URL: http://www.dynamicdrive.com/style/ */
+.solidblockmenu{
+margin: 0;
+padding: 2px;
+float: left;
+font: bold 13px Arial;
+width: 100%;
+border: 1px solid blue;
+border-width: 1px 0;
+
+background-color: #015699;
+}
+.solidblockmenu li{
+display: inline;
+
+}
+.solidblockmenu ul li{
+	padding: 5px;
+}
+.solidblockmenu li a{
+float: left;
+color: white;
+padding: 9px 11px;
+text-decoration: none;
+border-right: 1px solid white;
+}
+.solidblockmenu li a:visited{
+color: white;
+}
+.solidblockmenu li a:hover, .solidblockmenu li .current{
+color: white;
+background: transparent url(images/blockactive.gif) center center repeat-x;
+}
+p.iepara{
+padding-top: 1em;
+}
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+
+.nxt_fot img{
+	width: auto;
+	height: 200px;
+	float: left;
+	margin-bottom:10px;
+}
+.nxt1_fot img{
+	margin-left: 10px;
+	margin-bottom:10px;
+	width: auto;
+	height: 200px;
+	float: left;
+}
+
+.dd img{
+	float: left;
+	height:200px;
+	width:200px;
+}
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+    #templatemo_container{
+        width: 100%;
+    }
+	#templatemo_header{
+        width: 100%;
+    }
+    .solidblockmenu{
+        height: 160px;    
+    }
+    .solidblockmenu ul{
+        padding-left: 0:
+    }
+    .solidblockmenuul{
+        width: 100px;
+        text-align: center;
+    }
+    .solidblockmenu a:link, .solidblockmenu a:visited{
+        padding: 10px 25px;
+        height: 20px;
+        display: block;
+    }
+    .templatemo_content{
+        width: 100%;
+        float: left;
+        margin-top: 2%;
+    }
+    .contdown{
+        width: 100%;
+        float: left;
+        margin-top: 2%;
+    }
+    .section_box, .section_box2, #templatemo_right_column, #templatemo_footer{
+        width: 95%;
+        margin: 2% 0% 2% 0%;
+        padding: 2% 3%;
+    }
+}
